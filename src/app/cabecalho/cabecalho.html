@@ -1,0 +1,29 @@
+<header class="container-fluid py-3 border-bottom border-secondary">
+  <div class="row align-items-center">
+    <div class="col-12 col-md-4 text-center text-md-start mb-2 mb-md-0">
+      <a routerLink="/" class="text-decoration-none">
+        <h1 class="titulo-logo m-0 ps-md-3">SABBRA CADABRA</h1>
+      </a>
+    </div>
+  
+<div class="col-12 col-md-5 mb-2 mb-md-0">
+      <form class="input-group" (submit)="$event.preventDefault(); pesquisar(campoBusca.value)">
+        
+        <input #campoBusca type="text" class="form-control bg-dark text-light border-secondary input-customizado" placeholder="Buscar no abismo...">
+        
+        <button class="btn btn-contorno-customizado" type="submit">Buscar</button>
+      </form>
+    </div>
+    
+
+    <div class="col-12 col-md-3 text-center text-md-end pe-md-4">
+      <a routerLink="/login" class="text-light text-decoration-none link-usuario d-inline-flex align-items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-person-circle me-2" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
+        Entrar / Cadastrar
+      </a>
+    </div>
+  </div>
+</header>

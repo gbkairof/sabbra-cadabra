@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Montserrat:wght@600;700&display=swap');
+
+.titulo-logo {
+  font-family: 'Cinzel Decorative', serif !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 2.5rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Modern Antiqua', serif !important;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.text-muted {
+  color: #b0b0b0 !important;
+}
+
+body {
+  background-color: #121212; 
+  color: #e0e0e0; 
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}

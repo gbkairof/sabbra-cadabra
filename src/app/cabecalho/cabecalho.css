@@ -1,0 +1,31 @@
+.titulo-logo {
+  font-family: Impact, 'Arial Black', sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.link-usuario {
+  transition: color 0.3s ease;
+}
+
+.link-usuario:hover {
+  color: #bb86fc !important;
+}
+
+.btn-contorno-customizado {
+  color: #ffffff;
+  border-color: #555555;
+  transition: all 0.3s ease;
+}
+
+.btn-contorno-customizado:hover {
+  background-color: #bb86fc;
+  border-color: #bb86fc;
+  color: #121212;
+}
+
+.input-customizado:focus {
+  border-color: #bb86fc;
+  box-shadow: 0 0 5px rgba(187, 134, 252, 0.5);
+}

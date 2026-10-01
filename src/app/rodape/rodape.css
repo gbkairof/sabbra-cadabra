@@ -1,0 +1,14 @@
+.rodape-escuro {
+  background-color: #121212;
+}
+
+.titulo-rodape {
+  color: #bb86fc;
+  font-family: Impact, 'Arial Black', sans-serif;
+  letter-spacing: 2px;
+}
+
+.texto-mutado {
+  color: #888888;
+  font-size: 0.9rem;
+}

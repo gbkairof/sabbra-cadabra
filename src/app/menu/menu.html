@@ -1,0 +1,13 @@
+<nav class="container-fluid py-2 shadow-sm mb-4" style="background-color: #1a1a1a;">
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link link-customizado active" routerLink="/">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-customizado" routerLink="/">CAMISETAS</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/cesta">CESTA ({{ produtosService.itensCesta().length }})</a>
+    </li>
+  </ul>
+</nav>

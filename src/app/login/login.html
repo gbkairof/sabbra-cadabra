@@ -1,0 +1,33 @@
+<div class="container my-5">
+  <div class="row caixa-escura p-5">
+    
+    <div class="col-12 col-md-6 divisor-direito mb-5 mb-md-0 pe-md-5">
+      <h3 class="titulo-secao mb-4">JÁ TENHO CADASTRO</h3>
+      
+      <form>
+        <div class="mb-3">
+          <label for="emailLogin" class="form-label text-light">E-mail</label>
+          <input type="email" class="form-control input-escuro" id="emailLogin" required placeholder="seu@email.com">
+        </div>
+        
+        <div class="mb-4">
+          <label for="senhaLogin" class="form-label text-light">Senha</label>
+          <input type="password" class="form-control input-escuro" id="senhaLogin" required placeholder="********">
+        </div>
+        
+        <button type="submit" class="btn btn-entrar w-100 mb-3">ENTRAR</button>
+        
+        <div class="text-center">
+          <a routerLink="/esqueci" class="link-esqueci-senha">Esqueci minha senha</a>
+        </div>
+      </form>
+    </div>
+
+    <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-center ps-md-5 text-center">
+      <h3 class="titulo-secao mb-4">AINDA NÃO TENHO CADASTRO</h3>
+      <p class="text-muted mb-4">Crie sua conta para acompanhar seus pedidos e finalizar suas compras com mais rapidez.</p>
+      <button routerLink="/cadastro" class="btn btn-outline-customizado btn-lg w-100">CLIQUE AQUI</button>
+    </div>
+    
+  </div>
+</div>

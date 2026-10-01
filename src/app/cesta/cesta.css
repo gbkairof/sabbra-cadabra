@@ -1,0 +1,52 @@
+.titulo-cesta {
+  color: #ffffff;
+  font-family: Impact, 'Arial Black', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.tabela-customizada {
+  border-color: #444444;
+}
+
+.tabela-customizada thead th {
+  border-bottom: 2px solid #bb86fc;
+  color: #bb86fc;
+  font-size: 1.2rem;
+}
+
+.total-container {
+  background-color: #1a1a1a;
+  border-top: 2px solid #bb86fc;
+  border-radius: 0 0 8px 8px;
+}
+
+.texto-destaque {
+  color: #bb86fc;
+  font-weight: bold;
+}
+
+.btn-outline-danger {
+  border-color: #dc3545;
+  color: #dc3545;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+
+.btn-finalizar {
+  background-color: #bb86fc;
+  color: #121212;
+  font-weight: 900;
+  letter-spacing: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn-finalizar:hover {
+  background-color: #9b5de5;
+  color: #ffffff;
+  transform: scale(1.02);
+}
